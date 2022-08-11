@@ -29,7 +29,7 @@ body{
     transform: rotateX(-30deg) rotateY(0deg);
   }
   100%{
-    transform: rotateX(-30deg) rotateY(360deg);  
+    transform: rotateX(-30deg) rotateY(-360deg);  
   }
 }
 
@@ -69,7 +69,7 @@ body{
   width: 300px;
   height: 300px;
   background: #0f0;
-  transform: translateZ(-380px);
+  transform: translateZ(-375px);
   filter: blur(20px);
   box-shadow: 0 0 120px rgba(0, 255, 0, 0.2),
 0 0 200px rgba(0, 255, 0, 0.4),
